@@ -1,0 +1,127 @@
+body {
+    font-family: 'Arial', sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+form input[type="text"] {
+    flex-grow: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px 0 0 4px;
+}
+
+form button {
+    padding: 10px 15px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background-color: white;
+    margin-bottom: 10px;
+    padding: 15px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: #888;
+}
+
+.todo-content {
+    flex-grow: 1;
+}
+
+.delete-btn {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.complete-btn {
+    background-color: #2196F3;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+
+
+/* -------- flash messages ----------- */
+.close-flash {
+    font-size: 20px;
+    margin-left: 5px;
+    cursor: pointer;
+ }
+ 
+ .flash-messages {
+     position: fixed;
+     top: 20px;
+     right: 20px;
+     max-width: 400px;
+     z-index: 1000;
+ }
+ .alert {
+     padding: 15px;
+     margin-bottom: 10px;
+     border: 1px solid transparent;
+     border-radius: 4px;
+     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+     opacity: 0;
+     transform: translateX(100%);
+     animation: slideIn 0.5s forwards, fadeOut 0.5s 4.5s forwards;
+   }
+   
+ .alert-success {
+     color: #155724;
+     background-color: #d4edda;
+     border-color: #c3e6cb;
+   }
+   
+ .alert-info {
+     color: #0c5460;
+     background-color: #d1ecf1;
+     border-color: #bee5eb;
+   }
+   
+ .alert-warning {
+     color: #856404;
+     background-color: #fff3cd;
+     border-color: #ffeeba;
+   }
+   
+ .alert-error {
+     color: #721c24;
+     background-color: #f8d7da;
+     border-color: #f5c6cb;
+   }
