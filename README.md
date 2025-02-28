@@ -150,4 +150,4 @@ sudo systemctl restart nginx flask_todo_app
 ```
 
 # Blog Post
-(Deploying a Flask Todo App with MySQL, Nginx, and Gunicorn on Rocky Linux)[https://netopsautomation.com]
+check out full blog post (Deploying a Flask Todo App with MySQL, Nginx, and Gunicorn on Rocky Linux)[https://netopsautomation.com]
