@@ -12,4 +12,4 @@ This repository contains a simple **Flask Todo App** deployed on **Rocky Linux**
 - SELinux and Firewall configuration for security
 
 # Blog Post
-check out full blog post for more details: [Deploying a Flask Todo App with MySQL, Nginx, and Gunicorn on Rocky Linux](https://netopsautomation.com)
+check out full blog post for more details: [Deploying a Flask Todo App with MySQL, Nginx, and Gunicorn on Rocky Linux](https://netopsautomation.medium.com/deploying-a-flask-todo-app-with-mysql-nginx-and-gunicorn-on-rocky-linux-22100d58b216)
